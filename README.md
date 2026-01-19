@@ -43,6 +43,7 @@ Treinamento-Delphi
     ├── Semana02
     ├── Semana03
     └── Semana04
+```
 
 🔹 1. Clonar o repositório (primeiro acesso)
 Use este comando somente uma vez, para baixar o repositório:
