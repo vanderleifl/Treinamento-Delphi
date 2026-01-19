@@ -45,26 +45,37 @@ Treinamento-Delphi
     └── Semana04
 ```
 
+## ℹ️ Instruções para uso do git/github
+
 🔹 1. Clonar o repositório (primeiro acesso)
 Use este comando somente uma vez, para baixar o repositório:
 git clone https://github.com/SEU_USUARIO/Treinamento-Delphi.git
+
 Entre na pasta do projeto:
 cd Treinamento-Delphi
+
 🔹 2. Atualizar o código (antes de cada aula)
 Sempre execute antes de começar a aula:
 git pull
+
 🔹 3. Verificar o status dos arquivos
 Mostra quais arquivos foram alterados:
 git status
+
+--- A partir daqui somente se voce for enviar algo para o repositorio
+
 🔹 4. Adicionar arquivos para versionamento
 Adicionar um arquivo específico:
 git add caminho/do/arquivo.pas
 Adicionar todas as alterações:
 git add .
+
 🔹 5. Criar um commit
 Registra suas alterações localmente:
 git commit -m "Descrição clara do que foi feito"
+
 Exemplo:
 git commit -m "Fase 01 - Semana 01 - Primeiros exemplos em Delphi"
+
 🔹 6. Enviar alterações para o GitHub
 git push
