@@ -49,14 +49,14 @@ Treinamento-Delphi
 
 🔹 1. Clonar o repositório (primeiro acesso)
 Use este comando somente uma vez, para baixar o repositório:
-git clone https://github.com/SEU_USUARIO/Treinamento-Delphi.git
+git clone https://github.com/vanderleifl/Treinamento-Delphi.git
 
 Entre na pasta do projeto:
 cd Treinamento-Delphi
 
 🔹 2. Atualizar o código (antes de cada aula)
 Sempre execute antes de começar a aula:
-git pull
+git pull [origin main]
 
 🔹 3. Verificar o status dos arquivos
 Mostra quais arquivos foram alterados:
@@ -66,7 +66,7 @@ git status
 
 🔹 4. Adicionar arquivos para versionamento
 Adicionar um arquivo específico:
-git add caminho/do/arquivo.pas
+git add caminho_do_arquivo.pas
 Adicionar todas as alterações:
 git add .
 
@@ -78,4 +78,4 @@ Exemplo:
 git commit -m "Fase 01 - Semana 01 - Primeiros exemplos em Delphi"
 
 🔹 6. Enviar alterações para o GitHub
-git push
+git push [origin main]
