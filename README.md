@@ -49,7 +49,7 @@ Treinamento-Delphi
 
 🔹 1. Clonar o repositório (primeiro acesso)
 Use este comando somente uma vez, para baixar o repositório:
-git clone https://github.com/SEU_USUARIO/Treinamento-Delphi.git
+git clone https://github.com/vanderleifl/Treinamento-Delphi.git
 
 Entre na pasta do projeto:
 cd Treinamento-Delphi
