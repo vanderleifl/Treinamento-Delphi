@@ -1,3 +1,6 @@
+# Playlist do YouTube com as aulas gravadas:
+https://www.youtube.com/playlist?list=PLtbaX4w6b0M6i-WtrkQoKT2XY9lCwvq-L
+
 # Treinamento Delphi – Exemplos Práticos
 
 Este repositório contém os **exemplos práticos do Treinamento Interno de Delphi da Digital Sistemas**, voltado para desenvolvedores iniciantes ou em início de contato com Delphi, programação e projetos reais da empresa.
