@@ -6,6 +6,9 @@
         <Projects Include="Fase01\Semana01\MeuPrimeiroProjeto.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Fase02\Variaveis.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -23,14 +26,23 @@
     <Target Name="MeuPrimeiroProjeto:Make">
         <MSBuild Projects="Fase01\Semana01\MeuPrimeiroProjeto.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Variaveis">
+        <MSBuild Projects="Fase02\Variaveis.dproj"/>
+    </Target>
+    <Target Name="Variaveis:Clean">
+        <MSBuild Projects="Fase02\Variaveis.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Variaveis:Make">
+        <MSBuild Projects="Fase02\Variaveis.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="MeuPrimeiroProjeto"/>
+        <CallTarget Targets="MeuPrimeiroProjeto;Variaveis"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="MeuPrimeiroProjeto:Clean"/>
+        <CallTarget Targets="MeuPrimeiroProjeto:Clean;Variaveis:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="MeuPrimeiroProjeto:Make"/>
+        <CallTarget Targets="MeuPrimeiroProjeto:Make;Variaveis:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
